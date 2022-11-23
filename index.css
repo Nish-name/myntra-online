@@ -1,0 +1,177 @@
+.carousel-inner {
+    height:361px;
+    width:80%;
+    margin: 2px 2px 2px 2px;
+}
+
+#logo {
+    margin-left:20px;
+    margin-right:38px;
+}
+
+.my_input {
+    margin-right: 5% !important;
+    width: 34%;
+    margin-top: 10px;
+}
+
+.my_input>input {
+    font-size: 0.9rem;
+    padding-left: 35px;
+}
+
+.my_input>input:focus {
+    outline: none;
+    outline-width: 0px;
+    box-shadow: none;
+}
+
+.my_input>i {
+    position: absolute;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #2a2d40;
+}
+
+.my_icons {
+    width: 14%;
+    justify-content: space-between;
+    height: 100%;
+    margin-right: 2%;
+}
+
+.my_icons>i {
+    font-size: 18px;
+}  
+
+h2 {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom:20px ;
+    font-weight: 500;
+    line-height: 1.2;
+}  
+
+
+#omg-deals {
+    margin-top: 1%;
+}
+
+#omg-deals div {
+    width: 98%;
+    margin: auto;
+}
+
+#omg-deals>div>img {
+    min-width: 130px;
+    margin-right: -5px;
+    height: 220px;
+    margin-bottom:35px;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+#myn-brand {
+    margin-top: 2%;
+
+}
+
+#myn-brand div {
+    width: 98%;
+    margin: auto;
+     
+}
+
+#myn-brand>div>img {
+    min-width: 136px;
+    margin-right: 10px;
+    height: 220px;
+    margin-bottom: 20px;
+    margin-top:38px;
+    cursor: pointer;
+}
+
+/*section-2 */
+
+#my-brand {
+    margin-top: 2%;
+
+}
+
+#my-brand div {
+    width: 98%;
+    margin: auto;
+     
+}
+
+#my-brand>div>img {
+    min-width: 130px;
+    margin-right: -4px;
+    height: 220px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+/*section-3 */
+
+#top{
+    margin-top: 2%;
+
+}
+
+#top div {
+    width: 98%;
+    margin: auto;
+     
+}
+
+#top>div>img {
+    min-width: 135px;
+    margin-right: -11px;
+    margin-left: 5px;
+    height: 220px;
+    margin-bottom: 20px;
+    margin-top: 38px;
+    cursor: pointer;
+}
+#spring{
+    margin-top: 2%;
+
+}
+
+#spring div {
+    width: 98%;
+    margin: auto;
+     
+}
+
+#spring>div>img {
+    min-width: 130px;
+    margin-right: -12px;
+    margin-left: 5px;
+    height: 220px;
+    margin-bottom: 20px;
+    margin-top: 38px;
+    cursor: pointer;
+}
+
+#trends>div>img {
+    min-width: 130px;
+    margin-right: -12px;
+    margin-left: 5px;
+    height: 220px;
+    margin-bottom: 20px;
+    margin-top: 38px;
+    cursor: pointer;
+}
+
+
+
+
+
+   
+
+
