@@ -208,17 +208,97 @@ h2 {
     cursor: pointer;
 }
 
-#coupon {
-    height: 450px;
-    width: 350px;
-    position: absolute;
-    background-color: rgb(179, 12, 12);
-    margin-left: 38%;
-    margin-top: -550px;
-    z-index: 100;
-    display: none;
-    transition: 3s ease-out 0s 1 wait, 0.21s ease-out 3s ;
+/* coupen css */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:weight@300;400;500;600&display-swap');
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
 }
+
+#coupon {
+
+    height: 45%;
+    width: 38%; 
+    margin-left: 34%;
+    position:fixed;
+    margin-top: 8%;
+    z-index:100;
+    background: linear-gradient(135deg, #009688, #e91e63);;
+    color:#fff;
+    text-align:center;
+    padding: 40px 80px;
+    border-radius:15px;
+    box-shadow: 0 10px 10px 0rgba(red ,green,blue,alpha);
+
+
+}
+#coupon_close {
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    float: right;
+    top: -16px;
+    cursor: pointer;
+    left: 96%;
+    color: #fe5663;
+    background: #360d0d;
+}
+.closebtn{
+    position:absolute;
+    margin-top: -7%;
+    margin-left: 40%;
+}
+
+#coupon button{
+ 
+    margin-top:-3%;
+    height:36px;
+    width:37px;
+}
+
+
+#coupon h3{
+    font-size:23px;
+    font-weight: 150px; 
+    line-height: 30px;
+
+}
+
+ #coupon p {
+    font-size:20px;
+ }
+
+
+.coupen-row {
+    margin-top : 16%;
+}
+
+#cpnCode{
+    border:1px dashed #fff;
+    padding: 10px 10px;
+    border-right:0;
+    color: #ffc107;
+    margin-top:0%;   
+
+}
+
+#cpnBtn{
+    margin-top:0%;
+    border: 1px solid#fff;
+    background:#fff;
+    padding: 10px 10px;
+    color:green
+
+
+}
+
 
 
 
