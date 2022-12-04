@@ -1,3 +1,14 @@
+body{
+    padding:25px;
+    background-color:white;
+    color:black;
+    font-size:25px;
+}
+.dark-mode{
+    background-color:black;
+    color:white;
+}
+
 .carousel-inner {
     height:361px;
     width:80%;
@@ -11,7 +22,7 @@
 
 .my_input {
     margin-right: 5% !important;
-    width: 34%;
+    width: 27%;
     margin-top: 10px;
 }
 
@@ -43,7 +54,15 @@
 
 .my_icons>i {
     font-size: 18px;
-}  
+    margin:10px
+} 
+
+button:not(:disabled) {
+    cursor: pointer;
+    height: 50px;
+    width: 60px;
+    border-radius: 10px;
+}
 
 h2 {
     margin-top: 40px;
@@ -60,16 +79,16 @@ h2 {
 }
 
 #omg-deals div {
-    width: 98%;
+    width: 100%;
     margin: auto;
 }
 
 #omg-deals>div>img {
     min-width: 130px;
-    margin-right: -5px;
+    margin-right: -8px;
     height: 220px;
-    margin-bottom:35px;
-    margin-top:20px;
+    margin-bottom:30px;
+    margin-top:25px;
     cursor: pointer;
 }
 
@@ -110,7 +129,7 @@ h2 {
 }
 
 #my-brand div {
-    width: 98%;
+    width: 100%;
     margin: auto;
      
 }
@@ -118,14 +137,25 @@ h2 {
 #my-brand>div>img {
 
     min-width: 130px;
-    margin-right: -18px;
+    margin-right: -27px;
     height: 220px;
-    margin-bottom: 3px;
+    margin-bottom: -32px;
     margin-top: 35px;
     cursor: pointer;
 }
 
 /*section-3 */
+
+#heading{
+  
+    margin-top:80px;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom:20px ;
+    font-weight: 500;
+    line-height: 1.2;
+ 
+}
 
 #top{
     margin-top: 2%;
@@ -144,7 +174,7 @@ h2 {
     margin-left: 5px;
     height: 220px;
     margin-bottom: 20px;
-    margin-top: 38px;
+    margin-top: 20px;
     cursor: pointer;
 }
 #spring{
@@ -177,6 +207,23 @@ h2 {
     margin-top: 38px;
     cursor: pointer;
 }
+
+#coupon {
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    background-color: rgb(179, 12, 12);
+    margin-left: 38%;
+    margin-top: -550px;
+    z-index: 100;
+    display: none;
+    transition: 3s ease-out 0s 1 wait, 0.21s ease-out 3s ;
+}
+
+
+
+
+
 
 
 

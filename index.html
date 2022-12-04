@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Myntra</title>
         <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="index.js">
+        <script type="text/javascript" src="index.js"></script>
         
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -32,16 +32,16 @@
                     <a class="nav-link active" aria-current="page" href="#">Men</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Women </a>
+                    <a class="nav-link font-weight-bold" href="#">Women </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"">Kids</a>
+                    <a class="nav-link font-wight-bold" href="#"">Kids</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Home & Living</a>
+                    <a class="nav-link font-weight-bold" href="#">Home & Living</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Beauty</a>
+                    <a class="nav-link font-weight-bold" href="#">Beauty</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Studio</a>
@@ -57,7 +57,10 @@
                   <i class="fa-regular fa-user"></i>
                   <i class="fa-regular fa-heart"></i>
                   <i class="fa-sharp fa-solid fa-bag-shopping"></i>
-                  <i class="fa-solid fa-moon"></i>
+                <!-- <i class="fa-solid fa-moon moon" id="nav_icon" onclick="toggleTheme()"></i>
+                  <i class="fa-solid fa-sun sun" id="nav_icon" onclick="toggleTheme()"></i>  -->
+                  <button onclick="myFunction()">switch mode</button> 
+                 
               </div>
               </div>
             </div>
@@ -104,7 +107,7 @@
 <section id="omg-deals">
 
         <div>
-          <img src="./Myn images/images15.jpg "  alt="15" style="margin-left: 10px;"> 
+          <img src="./Myn images/images15.jpg "  alt="15" style="margin-left: 5px;"> 
           <img src="./Myn images/images17.jpg "  alt="17"> 
           <img src="./Myn images/images18.jpg "  alt="18"> 
           <img src="./Myn images/images19.jpg "  alt="19"> 
@@ -112,7 +115,7 @@
           <img src="./Myn images/images21.jpg "  alt="21"> 
           <img src="./Myn images/images22.jpg "  alt="22"> 
           <img src="./Myn images/images23.jpg "  alt="23"> 
-          <img src="./Myn images/images24.jpg "  alt="24"> 
+          <img src="./Myn images/images24.jpg "  alt="24" style="margin-right: 0px;"> 
         </div>
 </section>
 
@@ -124,29 +127,29 @@
   <section id="my-brand">
     
         <div>
-        <img src="./project image/images024.jpg" alt="image-24" style="margin-left: 27px;"> 
+        <img src="./project image/images024.jpg" alt="image-24" style="margin-left: 10px;"> 
         <img src="./project image/images025.jpg" alt="image-25" >
         <img src="./project image/images026.jpg" alt="image-26" >
         <img src="./project image/images027.jpg" alt="image-27" >
         <img src="./project image/images028.jpg" alt="image-28" >
         <img src="./project image/images029.jpg" alt="image-29" >
-        <img src="./project image/images030.jpg" alt="image-30" style="margin-left:10px;" >
-        <img src="./project image/images031.jpg" alt="image-31" >
+        <img src="./project image/images030.jpg" alt="image-30" >
+        <img src="./project image/images031.jpg" alt="image-31" style="margin-left:5px;">
         
-    <img src="./project image/images032.jpg" alt="image-24" style="margin-left:27px ;"> 
+    <img src="./project image/images032.jpg" alt="image-24" style="margin-left:10px ;"> 
     <img src="./project image/images032.jpg" alt="image-25" >
     <img src="./project image/images033.jpg" alt="image-26" >
     <img src="./project image/images034.jpg" alt="image-27" >
     <img src="./project image/images035.jpg" alt="image-28" >
     <img src="./project image/images036.jpg" alt="image-29" >
     <img src="./project image/images037.jpg" alt="image-30" >
-    <img src="./project image/images038.jpg" alt="image-31" >
+    <img src="./project image/images038.jpg" alt="image-31" style="margin-left:5px;">
     </div> 
 </section>
-
+ <!--section-3-->
  <!-- TOP PICKS -->
 
- <h2>TOP PICKS </h2>
+ <h2 id="heading">TOP PICKS </h2>
 
  <section id="top">
    
