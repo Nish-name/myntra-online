@@ -1,4 +1,4 @@
-[    //men's category
+[   
     {
         "id": 1,
         "product_name": "T-shirt",
@@ -56,9 +56,9 @@
         "rating": "4.5",
         "Color": "Black",
         "brand":"HRX"
-    }
-]
-[       //womens category list
+    },
+
+
     {
       "id": 1,
       "category": "Women",
@@ -83,7 +83,8 @@
       "Image": "",
       "product_rating": "4.1"
     },
-    { "id": 3,
+    {
+      "id": 3,
     "category": "Women",
     "category_id": 2,
     "product_name": "Tops",
@@ -94,6 +95,7 @@
     "Image": "",
     "product_rating": "4.2"
     },
+
     {
     "id": 4,
       "category": "Women",
@@ -106,6 +108,7 @@
       "Image": "",
       "product_rating": "4.1"
     },
+
     {
         "id": 5,
       "category": "Women",
@@ -118,10 +121,10 @@
       "Image": "",
       "product_rating": "4.6"
     },
-]
 
-    //kids list
-  [  {
+
+  
+   {
         "id": 1,
       "category": "Kids",
       "category_id": 3,
@@ -181,10 +184,10 @@
       "Image": "",
       "product_rating": "4"
     },
-]
 
-    //home & Living
-[
+
+  
+
     {
         "id": 1,
       "category": "Home & Living",
@@ -248,10 +251,8 @@
       "Image": "",
       "product_rating": "4.1"
     },
-]
 
-    //Beauty product list
-    [
+
 
     {
         "id": 1,

@@ -14,7 +14,7 @@ function closecoupen() {
 
 //geo location//
 
-let x = document.getElementById('out');
+let x = document.getElementById('output');
 let y = document.getElementById('weather');
 
 function geolocation(){
@@ -30,7 +30,7 @@ function showPosition(data){
     let lat = data.coords.latitude;
     let long = data.coords.longitude;
     let out = `Latitude is ${lat} & longitude is ${long}`
-    x.innerText = out
+    x.innerText = output
     const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
     ///api calling
     fetch(url,{method: 'GET'})
