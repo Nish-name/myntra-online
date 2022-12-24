@@ -14,10 +14,8 @@ function closecoupen() {
 
 //geo location//
 
-let x = document.getElementById('output');
-let y = document.getElementById('weather');
-
-function geolocation(){
+function geolocation() {
+    let x = document.getElementById('output');
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(showPosition)
     }else{
@@ -25,12 +23,12 @@ function geolocation(){
     }
 }
 
-function showPosition(data){
+function showPosition(data) {
     console.log(data);
     let lat = data.coords.latitude;
     let long = data.coords.longitude;
-    let out = `Latitude is ${lat} & longitude is ${long}`
-    x.innerText = output
+    //let out = `Latitude is ${lat} & longitude is ${long}`
+    
     const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
     ///api calling
     fetch(url,{method: 'GET'})
@@ -41,7 +39,7 @@ function showPosition(data){
         console.log(data)
         let city = data.city.name
         let temp = data.list[0].temp.day
-        y.innerText = `Your city is ${city} and temp is ${temp} °C`
+        document.getElementById('output').innerHTML = Math.round(temp) + "&#8451;";
     })
 }
 
