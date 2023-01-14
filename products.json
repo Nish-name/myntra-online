@@ -1,3 +1,4 @@
+db.products.insert(
 [   
     {
         "id": 1,
@@ -45,7 +46,6 @@
         "Color": "Black",
         "company":"H&M"
     },
-
     {
         "id": 5,
         "product_name": "Pants",
@@ -57,8 +57,6 @@
         "Color": "Black",
         "brand":"HRX"
     },
-
-
     {
       "id": 1,
       "category": "Women",
@@ -95,7 +93,6 @@
     "Image": "",
     "product_rating": "4.2"
     },
-
     {
     "id": 4,
       "category": "Women",
@@ -108,7 +105,6 @@
       "Image": "",
       "product_rating": "4.1"
     },
-
     {
         "id": 5,
       "category": "Women",
@@ -121,10 +117,7 @@
       "Image": "",
       "product_rating": "4.6"
     },
-
-
-  
-   {
+    {
         "id": 1,
       "category": "Kids",
       "category_id": 3,
@@ -184,10 +177,6 @@
       "Image": "",
       "product_rating": "4"
     },
-
-
-  
-
     {
         "id": 1,
       "category": "Home & Living",
@@ -212,7 +201,6 @@
       "thumbnail": "drive_image_thumbnail_url",
       "product_rating": "4.5"
     },
-
     {
         "id": 3,
       "category": "Home & Living",
@@ -225,7 +213,6 @@
       "Image": "",
       "product_rating": "4.3"
     },
-
     {
         "id": 4,
       "category": "Home & Living",
@@ -238,7 +225,6 @@
       "Image": "",
       "product_rating": "4.7"
     },
-
     {
         "id": 5,
       "category": "Home & Living",
@@ -251,9 +237,6 @@
       "Image": "",
       "product_rating": "4.1"
     },
-
-
-
     {
         "id": 1,
       "category": "Beauty",
@@ -277,8 +260,6 @@
       "Image": "",
       "product_rating": "4.6"
     },
-
-
     {
         "id": 3,
       "category": "Beauty",
@@ -291,8 +272,6 @@
       "Image": "",
       "product_rating": "3.9"
     },
-
-
     {
         "id": 4,
       "category": "Beauty",
@@ -305,8 +284,6 @@
        "Image": "",
       "product_rating": "4.7"
     },
-
-
     {
         "id": 5,
       "category": "Beauty",
@@ -320,3 +297,4 @@
       "product_rating": "4.6"
     },
 ]
+)

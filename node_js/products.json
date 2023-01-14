@@ -1,0 +1,322 @@
+[   
+    {
+        "id": 1,
+        "product_name": "T-shirt",
+        "category": "Men",
+        "category_id": 1,
+        "Price": 4200,
+        "Size": "small",
+        "Image": "",
+        "rating": "4.1",
+        "Color": "white",
+        "Brand": "ADIDAS"
+    },
+    {
+        "id": 2,
+        "product_name": "Casual-Shirt",
+        "category": "Men",
+        "category_id": 1,
+        "Price": 1299,
+        "Size": "Medium",
+        "rating": "4.2",
+        "Image": "",
+        "Color": "Blue",
+        "Brand": "Roadster"
+    },
+    {
+        "id": 3,
+        "product_name": "Jeans",
+        "category": "Men",
+        "category_id": 1,
+        "Price": 3000,
+        "rating": "4.3",
+        "Image": "", 
+        "Color": "Blue",
+        "company": "Havells"
+    },
+    {
+        "id": 4,
+        "product_name": "Shoes",
+        "category": "Men",
+        "category_id": 1,
+        "Price": 4000,
+        "rating": "4.4",
+        "Image": "",
+        "Color": "Black",
+        "company":"H&M"
+    },
+
+    {
+        "id": 5,
+        "product_name": "Pants",
+        "category": "Men",
+        "category_id": 1,
+        "Price": 1169,
+        "Image": "",
+        "rating": "4.5",
+        "Color": "Black",
+        "brand":"HRX"
+    },
+
+
+    {
+      "id": 1,
+      "category": "Women",
+      "category_id": 2,
+      "product_name": "Saree",
+      "size": "Onesize",
+      "color": "red",
+      "brand": "Mitera",
+      "price": "1013",
+      "Image": "",
+      "product_rating": "4.3"
+    },
+    {
+      "id": 2,
+      "category": "Women",
+      "category_id": 2,
+      "product_name": "jeans",
+      "size": "Large",
+      "color": "Blue",
+      "brand": "Kotty",
+      "price": "699",
+      "Image": "",
+      "product_rating": "4.1"
+    },
+    {
+      "id": 3,
+    "category": "Women",
+    "category_id": 2,
+    "product_name": "Tops",
+    "size": "Free",
+    "color": "grey",
+    "brand": "Anouk",
+    "price": "599",
+    "Image": "",
+    "product_rating": "4.2"
+    },
+
+    {
+    "id": 4,
+      "category": "Women",
+      "category_id": 2,
+      "product_name": "jeans",
+      "size": "M",
+      "color": "Blue",
+      "brand": "Kotty",
+      "price": "699",
+      "Image": "",
+      "product_rating": "4.1"
+    },
+
+    {
+        "id": 5,
+      "category": "Women",
+      "category_id": 2,
+      "product_name": "Kurta Set",
+      "size": "M,l,xl",
+      "color": "green",
+      "brand": "Libas",
+      "price": "899",
+      "Image": "",
+      "product_rating": "4.6"
+    },
+
+
+  
+   {
+        "id": 1,
+      "category": "Kids",
+      "category_id": 3,
+      "product_name": "T-shirt",
+      "size": "2-3y,4-5y",
+      "color": "Black",
+      "brand": "Bonkids",
+      "price": "900",
+      "Image": "",
+      "product_rating": "4.6"
+    },
+    {
+        "id": 2,
+      "category": "Kids",
+      "category_id": 3,
+      "product_name": "T-shirt",
+      "size": "2-3y,4-5y",
+      "color": "Black",
+      "brand": "Bonkids",
+      "price": "900",
+      "Image": "",
+      "product_rating": "4.8"
+    },
+    {
+        "id": 3,
+      "category": "Kids",
+      "category_id": 3,
+      "product_name": "Shorts",
+      "size": "2-3y,4-5y,8-9y",
+      "color": "Beidge",
+      "brand": "Zailo",
+      "price": "489",
+      "Image": "",
+      "product_rating": "3.5"
+    },
+    {
+        "id": 4,
+      "category": "Kids",
+      "category_id": 3,
+      "product_name": "Tops",
+      "size": "2-3y,4-5y",
+      "color": "pink",
+      "brand": "DressBerry",
+      "price": "599",
+      "Image": "",
+      "product_rating": "3.8"
+    },
+    {
+        "id": 5,
+      "category": "Kids",
+      "category_id": 3,
+      "product_name": "Dresses",
+      "size": "2-3y,4-5y",
+      "color": "white",
+      "brand": "H&M",
+      "price": "800",
+      "Image": "",
+      "product_rating": "4"
+    },
+
+
+  
+
+    {
+        "id": 1,
+      "category": "Home & Living",
+      "category_id": 4,
+      "product_name": "Bedsheet",
+      "size": "Double-king-size",
+      "color": "yellowish white",
+      "brand": "Strong",
+      "price": "1200",
+      "Image": "",
+      "product_rating": "4.4"
+    },
+    {
+        "id": 2,
+      "category": "Home & Living",
+      "category_id": 4,
+      "product_name": "Diwan Set",
+      "size": "Full",
+      "color": "purple",
+      "brand": "Bajo's",
+      "price": "1889",
+      "thumbnail": "drive_image_thumbnail_url",
+      "product_rating": "4.5"
+    },
+
+    {
+        "id": 3,
+      "category": "Home & Living",
+      "category_id": 4,
+      "product_name": "Bath-Towel",
+      "size": "onesize",
+      "color": "white",
+      "brand": "H&M",
+      "price": "630",
+      "Image": "",
+      "product_rating": "4.3"
+    },
+
+    {
+        "id": 4,
+      "category": "Home & Living",
+      "category_id": 4,
+      "product_name": "Table lamp",
+      "size": "onesize",
+      "color": "black",
+      "brand": "Home center",
+      "price": "699",
+      "Image": "",
+      "product_rating": "4.7"
+    },
+
+    {
+        "id": 5,
+      "category": "Home & Living",
+      "category_id": 4,
+      "product_name": "Cups & Mugs",
+      "size": "onesize",
+      "color": " white",
+      "brand": "Femora",
+      "price": "1200",
+      "Image": "",
+      "product_rating": "4.1"
+    },
+
+
+
+    {
+        "id": 1,
+      "category": "Beauty",
+      "category_id": 5,
+      "product_name": "Lipsticks",
+      "size": "5-6 ML",
+      "color": "red",
+      "brand": "Lakme",
+      "Image": "",
+      "product_rating": "5.5"
+    },
+    {
+        "id": 2,
+      "category": "Beauty",
+      "category_id": 5,
+      "product_name": "Lip-liner",
+      "size": "1-2 ML",
+      "color": "pink",
+      "brand": "Swiss Beauty",
+      "price": "559",
+      "Image": "",
+      "product_rating": "4.6"
+    },
+
+
+    {
+        "id": 3,
+      "category": "Beauty",
+      "category_id": 5,
+      "product_name": "Eyeshadow",
+      "size": "1-2 ML",
+      "color": "multicolors",
+      "brand": "Maybeline",
+      "price": "519",
+      "Image": "",
+      "product_rating": "3.9"
+    },
+
+
+    {
+        "id": 4,
+      "category": "Beauty",
+      "category_id": 5,
+      "product_name": "Body lotion",
+      "size": "75-100 ML",
+      "color": "white",
+      "brand": "Dove",
+      "price": "600",
+       "Image": "",
+      "product_rating": "4.7"
+    },
+
+
+    {
+        "id": 5,
+      "category": "Beauty",
+      "category_id": 5,
+      "product_name": "Shampoo",
+      "size": "150-180 ML",
+      "color": "white",
+      "brand": "ove",
+      "price": "500",
+      "Image": "",
+      "product_rating": "4.6"
+    },
+]
