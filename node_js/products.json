@@ -5,11 +5,11 @@
         "category": "Men",
         "category_id": 1,
         "Price": 4200,
-        "Size": "small",
-        "Image": "",
+        "size": "small",
+        "image": "",
         "rating": "4.1",
-        "Color": "white",
-        "Brand": "ADIDAS"
+        "color": "white",
+        "brand": "ADIDAS"
     },
     {
         "id": 2,
@@ -19,31 +19,31 @@
         "Price": 1299,
         "Size": "Medium",
         "rating": "4.2",
-        "Image": "",
+        "image": "",
         "Color": "Blue",
-        "Brand": "Roadster"
+        "brand": "Roadster"
     },
     {
         "id": 3,
         "product_name": "Jeans",
         "category": "Men",
         "category_id": 1,
-        "Price": 3000,
+        "price": 3000,
         "rating": "4.3",
         "Image": "", 
-        "Color": "Blue",
-        "company": "Havells"
+        "color": "Blue",
+        "brand": "Havells"
     },
     {
         "id": 4,
         "product_name": "Shoes",
         "category": "Men",
         "category_id": 1,
-        "Price": 4000,
+        "price": 4000,
         "rating": "4.4",
-        "Image": "",
-        "Color": "Black",
-        "company":"H&M"
+        "image": "",
+        "color": "Black",
+        "brand":"H&M"
     },
 
     {
@@ -51,10 +51,10 @@
         "product_name": "Pants",
         "category": "Men",
         "category_id": 1,
-        "Price": 1169,
-        "Image": "",
+        "price": 1169,
+        "image": "",
         "rating": "4.5",
-        "Color": "Black",
+        "color": "Black",
         "brand":"HRX"
     },
 
@@ -68,7 +68,7 @@
       "color": "red",
       "brand": "Mitera",
       "price": "1013",
-      "Image": "",
+      "image": "",
       "product_rating": "4.3"
     },
     {
@@ -80,7 +80,7 @@
       "color": "Blue",
       "brand": "Kotty",
       "price": "699",
-      "Image": "",
+      "image": "",
       "product_rating": "4.1"
     },
     {
@@ -92,7 +92,7 @@
     "color": "grey",
     "brand": "Anouk",
     "price": "599",
-    "Image": "",
+    "image": "",
     "product_rating": "4.2"
     },
 
@@ -118,7 +118,7 @@
       "color": "green",
       "brand": "Libas",
       "price": "899",
-      "Image": "",
+      "image": "",
       "product_rating": "4.6"
     },
 
@@ -133,7 +133,7 @@
       "color": "Black",
       "brand": "Bonkids",
       "price": "900",
-      "Image": "",
+      "image": "",
       "product_rating": "4.6"
     },
     {
@@ -145,7 +145,7 @@
       "color": "Black",
       "brand": "Bonkids",
       "price": "900",
-      "Image": "",
+      "image": "",
       "product_rating": "4.8"
     },
     {
@@ -157,7 +157,7 @@
       "color": "Beidge",
       "brand": "Zailo",
       "price": "489",
-      "Image": "",
+      "image": "",
       "product_rating": "3.5"
     },
     {
@@ -169,7 +169,7 @@
       "color": "pink",
       "brand": "DressBerry",
       "price": "599",
-      "Image": "",
+      "image": "",
       "product_rating": "3.8"
     },
     {
@@ -181,7 +181,7 @@
       "color": "white",
       "brand": "H&M",
       "price": "800",
-      "Image": "",
+      "image": "",
       "product_rating": "4"
     },
 
@@ -197,7 +197,7 @@
       "color": "yellowish white",
       "brand": "Strong",
       "price": "1200",
-      "Image": "",
+      "image": "",
       "product_rating": "4.4"
     },
     {
@@ -222,7 +222,7 @@
       "color": "white",
       "brand": "H&M",
       "price": "630",
-      "Image": "",
+      "image": "",
       "product_rating": "4.3"
     },
 
@@ -235,7 +235,7 @@
       "color": "black",
       "brand": "Home center",
       "price": "699",
-      "Image": "",
+      "image": "",
       "product_rating": "4.7"
     },
 
@@ -248,7 +248,7 @@
       "color": " white",
       "brand": "Femora",
       "price": "1200",
-      "Image": "",
+      "image": "",
       "product_rating": "4.1"
     },
 
@@ -262,7 +262,7 @@
       "size": "5-6 ML",
       "color": "red",
       "brand": "Lakme",
-      "Image": "",
+      "image": "",
       "product_rating": "5.5"
     },
     {
@@ -274,7 +274,7 @@
       "color": "pink",
       "brand": "Swiss Beauty",
       "price": "559",
-      "Image": "",
+      "image": "",
       "product_rating": "4.6"
     },
 
@@ -288,7 +288,7 @@
       "color": "multicolors",
       "brand": "Maybeline",
       "price": "519",
-      "Image": "",
+      "image": "",
       "product_rating": "3.9"
     },
 
@@ -302,7 +302,7 @@
       "color": "white",
       "brand": "Dove",
       "price": "600",
-       "Image": "",
+      "image": "",
       "product_rating": "4.7"
     },
 
@@ -316,7 +316,7 @@
       "color": "white",
       "brand": "ove",
       "price": "500",
-      "Image": "",
+      "image": "",
       "product_rating": "4.6"
     },
 ]

@@ -8,40 +8,25 @@ let bodyParser = require('body-parser');
 let mongoUrl = "mongodb+srv://new_user20:test@cluster0.al5igrw.mongodb.net/?retryWrites=true&w=majority";
 let db;
 
+  //middleware
+  app.use(cors());
+  app.use(express.json())
 app.get('/', (req , res) => { 
     res.send("hii from Express");
 
 })
-     //connect with mongo
- MongoClient.connect(mongoUrl,{useNewUrlParser:true},(err,dc) => {
-    if(err) console.log('Error while connecting');
-    db = dc.db('Myntraproject');
-    app.listen(port,() => {
-        console.log(`Server is running on port ${port}`)
-    })
- });
- 
-       //category
-
-app.get('/category',(req,res) => {
-    db.collection('category').find().toArray((err,result) => {
-        if(err) throw err;
-        res.send(result);
-    })
- })
-       //products
-
- app.get('/products',(req,res) => {
-
-    db.collection('products').find().toArray((err,result) => {
-        if(err) throw err;
-        res.send(result);
-        console.log(result)
+     //category
+     app.get('/category',(req,res) => {
+        db.collection('category').find().toArray((err,result) => {
+            if(err) throw err;
+            res.send(result);
+        })
      })
- })
-
-    //app.get('/products/:categoryId', (req, res) =>{
-    let query = {}
+     
+     //products
+ app.get('/products/:categoryId',(req,res) => { 
+      //app.get('/products/:categoryId', (req, res) =>{
+    let query = {};
     let categoryId = req.params.categoryId;
     let brand = req.query.brand
     let price = req.query.price
@@ -56,45 +41,24 @@ app.get('/category',(req,res) => {
         query = {category: categoryId, size: size}
     } else if (color) {
         query = {category: categoryId, color: color}
-    } 
+    } else {
+        query = {category: categoryId}
+    }
 
     console.log(categoryId, brand, size, color);
     db.collection('products').find(query).toArray((err, result) => {
         if(err) throw err;
         res.send(result)
     })
- 
-
-//add product to wishlist
-app.post('/addToWishlist', async (req, res) => {
-    console.log(req.body);
-    await db.collection('wishlist').insert(req.body, (err, result) => {
-        if(err) throw err;
-        res.send('Item added in wishlist')
-    })
-})
-
-//getting wishlist items
-app.get('/myWishList/:email', (req, res) =>{
-    if (req.params.email) {
-        db.collection('wishlist').find({email: req.params.email}).toArray((err, result) => {
-            if(err) throw err;
-            res.send(result)
-        })
-    } else {
-        console.log('no items found ', req.params.email);
-        res.send("no items found")
-    }
+})  
     
-})
-
 // placing order
 app.post('/placeOrder', async (req, res) => {
     console.log(req.body);
     await db.collection('orders').insert(req.body, (err, result) => {
         if(err) throw err;
-        res.send('order placed successfully');
-    })
+       res.send('order placed successfully');
+     })
 })
 
 //getting orders
@@ -111,7 +75,6 @@ app.get('/viewOrder', (req, res) =>{
         res.send(result)
     })
 })
-
 //update order
 app.put('/updateOrder/:orderId', (req, res) => {
     let oid = Number(req.params.orderId)
@@ -140,3 +103,11 @@ app.delete('/deleteOrder/:deleteId', (req, res) => {
 })
 
   
+     //connect with mongo
+ MongoClient.connect(mongoUrl,{useNewUrlParser:true},(err,dc) => {
+    if(err) console.log('Error while connecting');
+    db = dc.db('Myntraproject');
+    app.listen(port,() => {
+        console.log(`Server is running on port ${port}`)
+    })
+ });
